@@ -50,13 +50,13 @@ In the project directory, you can run:
 ## ⚡️ start
 
 ```
-npm start
+npm run dev
 ```
 
 or
 
 ```
-yarn start
+yarn dev
 ```
 
 Runs the app in the development mode.\
@@ -64,26 +64,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 <br />
 
-## 🧪 test
-
-```
-npm test
-```
-
-or
-
-```
-yarn test
-```
-
-Launches the test runner in the interactive watch mode.
-
-<br />
-
 ## 🦾 build
 
 ```
-npm build
+npm run build
 ```
 
 or
@@ -102,7 +86,7 @@ The build is minified and the filenames include the hashes.
 ## 🧶 lint
 
 ```
-npm lint
+npm run lint
 ```
 
 or
@@ -112,22 +96,6 @@ yarn lint
 ```
 
 Creates a `.eslintcache` file in which ESLint cache is stored. Running this command can dramatically improve ESLint's running time by ensuring that only changed files are linted.
-
-<br />
-
-## 🎯 format
-
-```
-npm format
-```
-
-or
-
-```
-yarn format
-```
-
-Checks if your files are formatted. This command will output a human-friendly message and a list of unformatted files, if any.
 
 <br />
 
