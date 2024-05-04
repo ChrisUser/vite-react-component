@@ -5,11 +5,11 @@
 To clone and use this template type the following commands:
 
 ```sh
-npx degit chrisuser/vite-react-component my-app
+npx degit chrisuser/vite-react-component my-component
 ```
 
 ```sh
-cd my-app
+cd my-component
 ```
 
 Then, based on your package manager:
