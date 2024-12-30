@@ -1,8 +1,10 @@
 name: Docs build and deploy
 on:
-  push
-  paths:
-    - 'src/**'
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
